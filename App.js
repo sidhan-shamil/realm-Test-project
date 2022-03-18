@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, View, Text, Button } from 'react-native'
+import {getAllContacts, addContact, deleteAllContact} from './realm';
 
 function App() {
   return (
